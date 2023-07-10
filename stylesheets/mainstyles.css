@@ -1,46 +1,179 @@
 /* gloabal styles */
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Open+Sans:wght@300;400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
 
 * {
     margin: 0 auto;
     padding: 0;
-    font-family: 'Manrope', sans-serif;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
-section{
-    width: 1400px;
+
+section {
+    width: 1300px;
+    margin-bottom: 200px;
 }
-.textDescription{
+.bgPrimary{
+
+    background: rgba(229, 84, 115, 0.10);
+}
+.sectionTittle {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.textDescription {
     color: rgba(39, 39, 39, 0.60);
-font-family: Lato;
-font-size: 18px;
-font-weight: 400;
+    font-size: 18px;
+    font-weight: 400;
 }
-.buttonPrimary{
+
+.buttonPrimary {
     border-radius: 8px;
     background: #E55473;
     padding: 20px 43px;
+    color: #FFF;
+    font-weight: 700;
+    font-size: 20px;
     border: 0;
 }
-/* banner section styles from here */
-header{
-    background: rgba(229, 84, 115, 0.10);
-}
-.banner{
+
+/* banner section styles start from here */
+.banner {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-top: 25px;
 }
-.bannerText>h1{
+
+.bannerText>h1 {
     color: #272727;
-font-family: Lato;
-font-size: 80px;
-font-weight: 800;
+    font-size: 80px;
+    font-weight: 800;
 }
-.banner>img{
-width: 500px;
+
+.banner>img {
+    width: 500px;
 }
-.bannerText>p{
+
+.bannerText>p {
     margin: 30px 0px;
+}
+
+/* Our Featured Flowers styles star here */
+.featuredFlowers {
+    text-align: center;
+    margin-top: 170px;
+}
+
+.featuredFlowersCards {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 48px;
+    gap: 26px;
+
+}
+
+.featuredFlowersCard {
+    width: 420px;
+    height: 500px;
+
+}
+
+.flower {
+    border-radius: 300px 300px 0px 0px;
+    width: 420px;
+    height: 500px;
+    margin-bottom: 30px;
+
+}
+
+.flower1 {
+    background: url('./../images/flowercard1.png'), rgba(167, 33, 98, 0.15);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
+
+.flower2 {
+    background: url('./../images/flowercard2.png') rgba(5, 151, 160, 0.15);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.flower3 {
+    background: url('./../images/flowercard3.png') rgba(71, 125, 17, 0.15);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
+
+/* delivery and support section start from here */
+.deliverysupport {
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin-top: 200px;
+    display: flex;
+    padding: 85px 30px;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.deliverysupport h4 {
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35px;
+    margin-top: 30px;
+}
+/* hot sell section styles start from here */
+
+.hotSellSectioncontainer{
+    margin-top: 150px;
+}
+
+.hotSellSection{
+text-align: center;
+justify-content: space-between;
+padding: 50px 0px;
+}
+.hotSellSection h1{
+    font-size: 40px;
+}
+
+.hotSellSection img{
+    display: flex;
+    justify-content: left;
+    width: 300px;
+}
+
+/* instagram Photo section styles starts from here */
+.instagramsection{
+    text-align: center;
+}
+.instaPhotoCards{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    margin-top: 20px;
+}
+
+.instacard1{
+    background: url(./../images/insta1.png);
+}
+.instacard2{
+    background: url(./../images/insta2.png);
+}
+.instacard3{
+    background: url(./../images/insta3.png);
+}
+.instacard4{
+    background: url(./../images/insta4.png);
+}
+.instaPhotoCard{
+    width: 342px;
+height: 396px;
+background-repeat: no-repeat;
+background-size: cover;
+
+
 }
