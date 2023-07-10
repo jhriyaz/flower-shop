@@ -1,0 +1,46 @@
+/* gloabal styles */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Open+Sans:wght@300;400;700;800&display=swap');
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+section{
+    width: 1400px;
+}
+.textDescription{
+    color: rgba(39, 39, 39, 0.60);
+font-family: Lato;
+font-size: 18px;
+font-weight: 400;
+}
+.buttonPrimary{
+    border-radius: 8px;
+    background: #E55473;
+    padding: 20px 43px;
+    border: 0;
+}
+/* banner section styles from here */
+header{
+    background: rgba(229, 84, 115, 0.10);
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 25px;
+}
+.bannerText>h1{
+    color: #272727;
+font-family: Lato;
+font-size: 80px;
+font-weight: 800;
+}
+.banner>img{
+width: 500px;
+}
+.bannerText>p{
+    margin: 30px 0px;
+}
