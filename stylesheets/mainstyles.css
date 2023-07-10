@@ -11,10 +11,12 @@ section {
     width: 1300px;
     margin-bottom: 200px;
 }
-.bgPrimary{
+
+.bgPrimary {
 
     background: rgba(229, 84, 115, 0.10);
 }
+
 .sectionTittle {
     color: #272727;
     font-size: 40px;
@@ -125,59 +127,119 @@ section {
     line-height: 35px;
     margin-top: 30px;
 }
+
 /* hot sell section styles start from here */
 
-.hotSellSectioncontainer{
+.hotSellSectioncontainer {
     margin-top: 150px;
 }
 
-.hotSellSection{
-text-align: center;
-justify-content: space-between;
-padding: 50px 0px;
+.hotSellSection {
+    text-align: center;
+    justify-content: space-between;
+    padding: 50px 0px;
 }
-.hotSellSection h1{
+
+.hotSellSection h1 {
     font-size: 40px;
 }
 
-.hotSellSection img{
+.hotSellSection img {
     display: flex;
     justify-content: left;
     width: 300px;
 }
 
 /* instagram Photo section styles starts from here */
-.instagramsection{
+.instagramsection {
     text-align: center;
 }
-.instaPhotoCards{
+
+.instaPhotoCards {
     display: flex;
     justify-content: space-between;
     gap: 24px;
     margin-top: 20px;
 }
 
-.instacard1{
+.instacard1 {
     background: url(./../images/insta1.png);
 }
-.instacard2{
+
+.instacard2 {
     background: url(./../images/insta2.png);
 }
-.instacard3{
+
+.instacard3 {
     background: url(./../images/insta3.png);
 }
-.instacard4{
+
+.instacard4 {
     background: url(./../images/insta4.png);
 }
-.instaPhotoCard{
+
+.instaPhotoCard {
     width: 342px;
-height: 396px;
-background-repeat: no-repeat;
-background-size: cover;
+    height: 396px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* some satisfied Customers section style start from here*/
+.customerReviewContainer{
+    background:linear-gradient(45deg,rgba(75, 7, 7, 0.671) 0%,rgba(128, 0, 128, 0.548) 100%);
+    height: 600px;
+    margin-bottom: 200px;
+}
+
+.customerReviewSec h1{
+    text-align: center;
+color: #272727;
+font-size: 40px;
+font-weight: 800;
+text-shadow: 2px 2px 4px #ed18dd;
+    padding: 16px 0px 6px 0px;
+}
+.customerReviewSec >p{
+    text-align: center;
+    color: #2a1d30;
+    margin-bottom: 10px;
+}
+.customerrow{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+.customerbox{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   height: 200px;
+    background-color: #e5547363;
+    margin-top: 15px;
+    border-radius: 30px 0px 50px 0px;
+}
+.customerbox h3{
+    font-weight: bold;
+    font-size: 22px;
+    color: #351691;
+    padding-bottom: 10px;
+}
+.customerbox p{
+    padding: 5px;
+    color: aliceblue;
+}
+
+.customerbox img{
+    width: 100px;
+    margin: 10px;
+    border-radius: 50px 30px;
 }
 /* latest deal subscription section styles starts from here */
 
-.latestDealsSubscribe{
+.latestDealsSubscribe {
     background: url('./../images/subscrivebackgound.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -187,13 +249,39 @@ background-size: cover;
     height: 450px;
 
 }
-.latestDealsSubscribe input{
+
+.latestDealsSubscribe input {
     width: 420px;
     padding: 25px 8px;
     border: 0;
     border-radius: 8px;
-background: #FFF;
+    background: #FFF;
     margin-right: 20px;
+    outline: none;
     margin-top: 20px;
 }
+
 /* footer section start from here */
+footer {
+    background-color: #111010;
+    text-align: center;
+    padding: 130px 0px;
+
+}
+
+footer>h1 {
+    color: rgba(229, 84, 115, 1) !important;
+    font-size: 48px;
+}
+
+footer h4 {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    font-weight: 400;
+    padding: 10px;
+}
+
+footer p {
+    color: rgba(255, 255, 255, 0.644)!important;
+    padding-top:10px;
+}
