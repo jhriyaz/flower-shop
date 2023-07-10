@@ -76,6 +76,14 @@ section {
 
 }
 
+.featuredFlowersCard h2 {
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration-line: underline;
+}
+
 .featuredFlowersCard {
     width: 420px;
     height: 500px;
@@ -187,56 +195,62 @@ section {
 
 
 /* some satisfied Customers section style start from here*/
-.customerReviewContainer{
-    background:linear-gradient(45deg,rgba(75, 7, 7, 0.671) 0%,rgba(128, 0, 128, 0.548) 100%);
+.customerReviewContainer {
+    background: linear-gradient(45deg, rgba(75, 7, 7, 0.671) 0%, rgba(128, 0, 128, 0.548) 100%);
     height: 600px;
     margin-bottom: 200px;
 }
 
-.customerReviewSec h1{
+.customerReviewSec h1 {
     text-align: center;
-color: #272727;
-font-size: 40px;
-font-weight: 800;
-text-shadow: 2px 2px 4px #ed18dd;
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    text-shadow: 2px 2px 4px #ed18dd;
     padding: 16px 0px 6px 0px;
 }
-.customerReviewSec >p{
+
+.customerReviewSec>p {
     text-align: center;
     color: #2a1d30;
     margin-bottom: 10px;
 }
-.customerrow{
+
+.customerrow {
     display: flex;
     justify-content: space-between;
     align-content: center;
 }
-.customerbox{
+
+.customerbox {
     width: 300px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-   height: 200px;
+    height: 200px;
     background-color: #e5547363;
     margin-top: 15px;
     border-radius: 30px 0px 50px 0px;
 }
-.customerbox h3{
+
+.customerbox h3 {
     font-weight: bold;
     font-size: 22px;
     color: #351691;
     padding-bottom: 10px;
 }
-.customerbox p{
+
+.customerbox p {
     padding: 5px;
     color: aliceblue;
 }
 
-.customerbox img{
+.customerbox img {
     width: 100px;
     margin: 10px;
     border-radius: 50px 30px;
 }
+
 /* latest deal subscription section styles starts from here */
 
 .latestDealsSubscribe {
@@ -282,6 +296,6 @@ footer h4 {
 }
 
 footer p {
-    color: rgba(255, 255, 255, 0.644)!important;
-    padding-top:10px;
+    color: rgba(255, 255, 255, 0.644) !important;
+    padding-top: 10px;
 }
